@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.main-container{
+    margin: 0px;
+}
+.nav {
+    background-color: white;
+    text-align: center;
+    border-top: 0px;
+    margin-top: 0px;
+    display: block;
+    font-size: 30px;
+}
+.nav h3{
+    margin: 0;
+    padding-top: 10px;
+    /* font-size: 30px; */
+    font-weight: 400;
+    height: 60px;
+}
+
+.PostCard {
+    width: 500px;
+    margin: 60px auto;
+    box-shadow: 5px 2px 13px -6px black;
+}
+.PostCardTitle{
+    background-color: white;
+    font-size: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 500px;
+}
+.PostCardTitle h1{margin: 0%; padding-left: 10px;}
+.PostCardTitle p{font-size: 12px; padding-right: 10px;}
+
+.PostCardImg{
+    margin: 0;
+    height: 400px;
+}
+.PostCardImg img{
+    margin: 0px;
+    height: 400px;
+    width: 500px;
+}
+
+.PostCardContent{
+    background-color: white;
+}
+.PostCardContent p{
+    margin: 0px;
+    padding: 12px;
+    font-size: 12px;
+}
